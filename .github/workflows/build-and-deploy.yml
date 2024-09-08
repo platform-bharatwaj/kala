@@ -40,5 +40,5 @@ jobs:
         with:
           name: my-library-${{ github.run_id }}
           path: target/*.jar
-          repo: bharatwaj-platform/common-libs
+          repo: platform-bharatwaj/common-libs
           token: ${{ secrets.GITHUB_TOKEN }}
